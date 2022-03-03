@@ -25,7 +25,7 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header><h1 className="font-extrabold">This is the Header</h1></header>
+      <header><h1 className="font-extrabold text-red-400">This is the Header</h1></header>
       <main>{children}</main>
       <footer>{!home && (
         <div className={styles.backToHome}>
